@@ -5,10 +5,7 @@ def main():
     values = [1, 2, 3, 0, 4]
     total = 0
     for v in values:
-        if v == 0 : 
-            total += compute_ratio(10, 1) 
-        else:
-            total += compute_ratio(10, v)
+       total += compute_ratio(10, v)
     print("Total:", total)
 
 if __name__ == "__main__":
